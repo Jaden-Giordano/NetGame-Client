@@ -1,0 +1,14 @@
+{
+  "name": "NetGame-Client",
+  "version": "1.0.0",
+  "description": "The client for NetGame",
+  "main": "src/.",
+  "repository": "https://github.com/Jaden-Giordano/NetGame-Client.git",
+  "author": "Jaden Giordano <thejadenjack@gmail.com>",
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.18.2",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0"
+  }
+}
