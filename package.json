@@ -5,10 +5,16 @@
   "main": "src/.",
   "repository": "https://github.com/Jaden-Giordano/NetGame-Client.git",
   "author": "Jaden Giordano <thejadenjack@gmail.com>",
+  "scipts": {
+    "start": "node ./"
+  },
   "devDependencies": {
     "babel-eslint": "^8.2.2",
     "eslint": "^4.18.2",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.9.0"
+  },
+  "dependencies": {
+    "electron": "^1.8.2"
   }
 }
