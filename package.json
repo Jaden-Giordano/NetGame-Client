@@ -5,16 +5,20 @@
   "main": "src/.",
   "repository": "https://github.com/Jaden-Giordano/NetGame-Client.git",
   "author": "Jaden Giordano <thejadenjack@gmail.com>",
-  "scipts": {
-    "start": "node ./"
+  "scripts": {
+    "start": "electron src/.",
+    "dev": "webpack",
+    "build": "webpack --mode production"
   },
   "devDependencies": {
+    "babel-core": "^6.26.0",
     "babel-eslint": "^8.2.2",
+    "babel-loader": "^7.1.3",
+    "babel-preset-env": "^1.6.1",
+    "electron": "^2.0.0-beta.1",
     "eslint": "^4.18.2",
     "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.9.0"
-  },
-  "dependencies": {
-    "electron": "^1.8.2"
+    "eslint-plugin-import": "^2.9.0",
+    "phaser": "^3.1.2"
   }
 }
