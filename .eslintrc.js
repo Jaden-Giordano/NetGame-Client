@@ -7,14 +7,13 @@ module.exports = {
 	parser: 'babel-eslint',
 	parserOptions: {
 		ecmaVersion: 7,
-		sourceType: 'module'
+		sourceType: 'module',
 	},
 	extends: 'airbnb-base',
 	rules: {
 		'linebreak-style': [
 			'error',
-			'unix'
+			'unix',
 		],
-    'import/no-extraneous-dependencies': 'off'
 	}
 };
